@@ -1,0 +1,37 @@
+body {
+	width: 80%;
+	margin: 1em;
+}
+
+#main {
+	clear: left;
+}
+
+#me_photo {
+	float: left;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	max-width: 260px;
+}
+
+@media (max-width: 1700px) {
+	#me_photo {
+		padding-bottom: 0em;
+	}
+}
+
+@media (max-width: 800px) {
+	body {
+		width: 90%;
+	}
+	#me_photo {
+		max-width: 200px;
+	}
+}
+
+@media (max-width: 500px)  {
+	#me_photo {
+		float: none;
+		padding-bottom: 0em;
+	}
+}
