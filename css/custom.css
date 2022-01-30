@@ -1,0 +1,9 @@
+@media not (min-width: 48em), (max-height: 34em) {
+    #sidebar-photo {
+        display: none;
+    }
+}
+
+hr {
+    margin: 0.5em;
+}
